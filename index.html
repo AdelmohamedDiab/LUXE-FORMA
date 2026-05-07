@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LUXE FORMA — Premium Furniture</title>
+  <meta name="description" content="Discover timeless luxury furniture crafted for the modern connoisseur. Sofas, dining sets, bedrooms, and more at LUXE FORMA." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="preloader-inner">
+      <div class="preloader-logo">LUXE FORMA</div>
+      <div class="preloader-bar"><div class="preloader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">LUXE FORMA</a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#categories" class="nav-link">Collections</a></li>
+        <li><a href="#products" class="nav-link">Products</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">
+          <i class="fas fa-moon" id="themeIcon"></i>
+        </button>
+        <a href="#" class="nav-cta">Visit Showroom</a>
+        <button class="hamburger" id="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg">
+      <img src="images/hero_banner.png" alt="Luxury Living Room" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content" data-aos="fade-up">
+      <span class="hero-eyebrow">New Collection 2026</span>
+      <h1 class="hero-title">Where Luxury<br/><em>Meets Living</em></h1>
+      <p class="hero-sub">Handcrafted furniture for those who demand the finest. Each piece a statement, each room a sanctuary.</p>
+      <div class="hero-btns">
+        <a href="#products" class="btn btn-primary">Explore Collection</a>
+        <a href="#about" class="btn btn-ghost">Our Story</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-num">2,400+</span><span class="stat-label">Pieces Crafted</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">18</span><span class="stat-label">Years of Craft</span></div>
+        <div class="stat-divider"></div>
+        <div class="stat"><span class="stat-num">96%</span><span class="stat-label">Client Satisfaction</span></div>
+      </div>
+    </div>
+    <a href="#categories" class="hero-scroll"><i class="fas fa-chevron-down"></i></a>
+  </section>
+
+  <!-- CATEGORIES -->
+  <section id="categories">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-eyebrow">Collections</span>
+        <h2 class="section-title">Shop by Category</h2>
+        <p class="section-sub">Curated collections designed to transform every space in your home.</p>
+      </div>
+      <div class="categories-grid">
+        <div class="cat-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="cat-img-wrap">
+            <img src="images/sofa_product.png" alt="Sofas & Lounges" />
+            <div class="cat-overlay"></div>
+          </div>
+          <div class="cat-info">
+            <h3>Sofas &amp; Lounges</h3>
+            <span>42 Pieces</span>
+          </div>
+        </div>
+        <div class="cat-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="cat-img-wrap">
+            <img src="images/dining_table.png" alt="Dining Sets" />
+            <div class="cat-overlay"></div>
+          </div>
+          <div class="cat-info">
+            <h3>Dining Sets</h3>
+            <span>28 Pieces</span>
+          </div>
+        </div>
+        <div class="cat-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="cat-img-wrap">
+            <img src="images/bedroom_set.png" alt="Bedrooms" />
+            <div class="cat-overlay"></div>
+          </div>
+          <div class="cat-info">
+            <h3>Bedrooms</h3>
+            <span>35 Pieces</span>
+          </div>
+        </div>
+        <div class="cat-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="cat-img-wrap">
+            <img src="images/accent_chair.png" alt="Accent Chairs" />
+            <div class="cat-overlay"></div>
+          </div>
+          <div class="cat-info">
+            <h3>Accent Chairs</h3>
+            <span>19 Pieces</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURED PRODUCTS -->
+  <section id="products">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-eyebrow">Featured</span>
+        <h2 class="section-title">Signature Pieces</h2>
+        <p class="section-sub">Timeless designs that define spaces and elevate everyday living.</p>
+      </div>
+      <div class="products-grid">
+
+        <div class="product-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="product-img-wrap">
+            <img src="images/sofa_product.png" alt="Elara Sectional Sofa" />
+            <div class="product-badge">Best Seller</div>
+            <div class="product-actions">
+              <button class="action-btn" title="Wishlist"><i class="far fa-heart"></i></button>
+              <button class="action-btn" title="Quick View"><i class="far fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Sofas &amp; Lounges</span>
+            <h3 class="product-name">Elara Sectional</h3>
+            <p class="product-desc">Sumptuous velvet upholstery with solid oak frame</p>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">$4,290</span>
+                <span class="price-old">$5,100</span>
+              </div>
+              <button class="add-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="product-img-wrap">
+            <img src="images/dining_table.png" alt="Montara Dining Set" />
+            <div class="product-badge new">New</div>
+            <div class="product-actions">
+              <button class="action-btn" title="Wishlist"><i class="far fa-heart"></i></button>
+              <button class="action-btn" title="Quick View"><i class="far fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Dining Sets</span>
+            <h3 class="product-name">Montara Dining</h3>
+            <p class="product-desc">Solid walnut table with hand-stitched leather chairs</p>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">$6,850</span>
+                <span class="price-old">$7,500</span>
+              </div>
+              <button class="add-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="product-img-wrap">
+            <img src="images/accent_chair.png" alt="Corda Lounge Chair" />
+            <div class="product-actions">
+              <button class="action-btn" title="Wishlist"><i class="far fa-heart"></i></button>
+              <button class="action-btn" title="Quick View"><i class="far fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Accent Chairs</span>
+            <h3 class="product-name">Corda Lounge Chair</h3>
+            <p class="product-desc">Full-grain leather with antique brass base</p>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">$2,140</span>
+                <span class="price-old">$2,600</span>
+              </div>
+              <button class="add-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="product-img-wrap">
+            <img src="images/coffee_table.png" alt="Aria Coffee Table" />
+            <div class="product-badge">Limited</div>
+            <div class="product-actions">
+              <button class="action-btn" title="Wishlist"><i class="far fa-heart"></i></button>
+              <button class="action-btn" title="Quick View"><i class="far fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Tables</span>
+            <h3 class="product-name">Aria Coffee Table</h3>
+            <p class="product-desc">Calacatta marble top with gold-plated steel frame</p>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">$3,490</span>
+                <span class="price-old">$4,100</span>
+              </div>
+              <button class="add-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="product-img-wrap">
+            <img src="images/bedroom_set.png" alt="Serene Bedroom Suite" />
+            <div class="product-badge new">New</div>
+            <div class="product-actions">
+              <button class="action-btn" title="Wishlist"><i class="far fa-heart"></i></button>
+              <button class="action-btn" title="Quick View"><i class="far fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Bedrooms</span>
+            <h3 class="product-name">Serene Bedroom Suite</h3>
+            <p class="product-desc">King bed with nightstands in brushed ash wood</p>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">$8,990</span>
+                <span class="price-old">$10,500</span>
+              </div>
+              <button class="add-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="product-img-wrap">
+            <img src="images/sofa_product.png" alt="Oslo Loveseat" />
+            <div class="product-actions">
+              <button class="action-btn" title="Wishlist"><i class="far fa-heart"></i></button>
+              <button class="action-btn" title="Quick View"><i class="far fa-eye"></i></button>
+            </div>
+          </div>
+          <div class="product-info">
+            <span class="product-cat">Sofas</span>
+            <h3 class="product-name">Oslo Loveseat</h3>
+            <p class="product-desc">Boucle fabric with warm walnut tapered legs</p>
+            <div class="product-footer">
+              <div class="product-price">
+                <span class="price-current">$2,890</span>
+                <span class="price-old">$3,400</span>
+              </div>
+              <button class="add-cart-btn">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="products-cta" data-aos="fade-up">
+        <a href="#" class="btn btn-primary">View All Products</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container about-grid">
+      <div class="about-visual" data-aos="fade-right">
+        <img src="images/gallery_living.png" alt="Our Showroom" class="about-img" />
+        <div class="about-badge-card">
+          <span class="about-badge-num">18</span>
+          <span class="about-badge-text">Years of<br/>Excellence</span>
+        </div>
+      </div>
+      <div class="about-content" data-aos="fade-left">
+        <span class="section-eyebrow">About LUXE FORMA</span>
+        <h2 class="section-title">Crafting Spaces,<br/><em>Defining Luxury</em></h2>
+        <p class="about-text">Founded in 2008, LUXE FORMA was born from a singular vision: to create furniture that transcends the ordinary. Every piece in our collection is a product of rigorous design, master craftsmanship, and the world's finest materials.</p>
+        <p class="about-text">From our ateliers in Milan and Copenhagen, we source sustainably and build with purpose — ensuring that each piece you bring home carries not just beauty, but a story.</p>
+        <ul class="about-list">
+          <li><i class="fas fa-check-circle"></i> Sustainably sourced premium materials</li>
+          <li><i class="fas fa-check-circle"></i> Handcrafted by master artisans</li>
+          <li><i class="fas fa-check-circle"></i> 10-year structural warranty</li>
+          <li><i class="fas fa-check-circle"></i> Custom bespoke commissions available</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section id="why-us">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-eyebrow">Why Us</span>
+        <h2 class="section-title">The LUXE FORMA Promise</h2>
+        <p class="section-sub">We don't just sell furniture. We deliver a complete luxury experience from first glance to final installation.</p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="why-icon"><i class="fas fa-gem"></i></div>
+          <h3>Premium Quality</h3>
+          <p>Only the finest materials — Italian leathers, solid hardwoods, hand-polished metals — make it into our collections.</p>
+        </div>
+        <div class="why-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="why-icon"><i class="fas fa-paint-brush"></i></div>
+          <h3>Bespoke Design</h3>
+          <p>Work with our in-house designers to create custom pieces tailored exactly to your vision and space.</p>
+        </div>
+        <div class="why-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="why-icon"><i class="fas fa-shipping-fast"></i></div>
+          <h3>White-Glove Delivery</h3>
+          <p>Professional installation and in-home setup included with every purchase — delivered to perfection.</p>
+        </div>
+        <div class="why-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="why-icon"><i class="fas fa-leaf"></i></div>
+          <h3>Sustainable Craft</h3>
+          <p>FSC-certified woods, eco-conscious production, and carbon-offset delivery for a greener luxury.</p>
+        </div>
+        <div class="why-card" data-aos="fade-up" data-aos-delay="400">
+          <div class="why-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>10-Year Warranty</h3>
+          <p>Full structural warranty on every piece — because true quality is built to last generations.</p>
+        </div>
+        <div class="why-card" data-aos="fade-up" data-aos-delay="500">
+          <div class="why-icon"><i class="fas fa-headset"></i></div>
+          <h3>Concierge Support</h3>
+          <p>Dedicated personal stylists and lifetime after-care service for every LUXE FORMA client.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-eyebrow">Testimonials</span>
+        <h2 class="section-title">What Our Clients Say</h2>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card" data-aos="fade-up" data-aos-delay="0">
+          <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="review-text">"LUXE FORMA transformed our living room into something out of a magazine. The Elara sectional is absolute perfection — the quality is extraordinary."</p>
+          <div class="review-author">
+            <div class="review-avatar">S</div>
+            <div><strong>Sophia R.</strong><span>Interior Designer, Dubai</span></div>
+          </div>
+        </div>
+        <div class="review-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="review-text">"The Montara dining set is the centrepiece of our home. We receive compliments constantly. The craftsmanship is unlike anything I've seen at this price point."</p>
+          <div class="review-author">
+            <div class="review-avatar">J</div>
+            <div><strong>James L.</strong><span>Architect, London</span></div>
+          </div>
+        </div>
+        <div class="review-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="review-stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div>
+          <p class="review-text">"From ordering to white-glove delivery, every touchpoint felt premium. The Serene bedroom suite exceeded every expectation. Truly world-class service."</p>
+          <div class="review-author">
+            <div class="review-avatar">A</div>
+            <div><strong>Amara K.</strong><span>Entrepreneur, New York</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section id="gallery">
+    <div class="container">
+      <div class="section-header" data-aos="fade-up">
+        <span class="section-eyebrow">Gallery</span>
+        <h2 class="section-title">Spaces We've Crafted</h2>
+        <p class="section-sub">Real homes, real transformations — curated by our design team.</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item tall" data-aos="fade-up" data-aos-delay="0">
+          <img src="images/gallery_living.png" alt="Living Room Design" />
+          <div class="gallery-overlay"><span>Living Spaces</span></div>
+        </div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+          <img src="images/bedroom_set.png" alt="Bedroom Design" />
+          <div class="gallery-overlay"><span>Master Bedrooms</span></div>
+        </div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+          <img src="images/dining_table.png" alt="Dining Space" />
+          <div class="gallery-overlay"><span>Dining Spaces</span></div>
+        </div>
+        <div class="gallery-item wide" data-aos="fade-up" data-aos-delay="300">
+          <img src="images/gallery_bedroom.png" alt="Bedroom Suite" />
+          <div class="gallery-overlay"><span>Bedroom Suites</span></div>
+        </div>
+        <div class="gallery-item" data-aos="fade-up" data-aos-delay="400">
+          <img src="images/sofa_product.png" alt="Sofa Collection" />
+          <div class="gallery-overlay"><span>Sofa Collection</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container contact-grid">
+      <div class="contact-info" data-aos="fade-right">
+        <span class="section-eyebrow">Contact</span>
+        <h2 class="section-title">Visit Our Showroom</h2>
+        <p class="contact-text">Experience our collection in person. Our design consultants are ready to help you create your perfect space.</p>
+        <ul class="contact-list">
+          <li><i class="fas fa-map-marker-alt"></i><div><strong>Showroom</strong><span>42 Marble Lane, Downtown District, Dubai, UAE</span></div></li>
+          <li><i class="fas fa-phone-alt"></i><div><strong>Phone</strong><span>+971 4 382 5500</span></div></li>
+          <li><i class="fas fa-envelope"></i><div><strong>Email</strong><span>hello@luxeforma.com</span></div></li>
+          <li><i class="fas fa-clock"></i><div><strong>Hours</strong><span>Mon–Sat: 10am – 8pm | Sun: 12pm – 6pm</span></div></li>
+        </ul>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-houzz"></i></a>
+        </div>
+      </div>
+      <form class="contact-form glass-card" data-aos="fade-left" id="contactForm">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" placeholder="Your name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" placeholder="your@email.com" required />
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" placeholder="+1 (000) 000-0000" />
+        </div>
+        <div class="form-group">
+          <label for="interest">I'm interested in</label>
+          <select id="interest">
+            <option value="">Select a category</option>
+            <option>Sofas &amp; Lounges</option>
+            <option>Dining Sets</option>
+            <option>Bedrooms</option>
+            <option>Accent Chairs</option>
+            <option>Bespoke Commission</option>
+          </select>
+        </div>
+        <div class="form-group full">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" placeholder="Tell us about your project..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-w">Send Message <i class="fas fa-arrow-right"></i></button>
+        <div id="formSuccess" class="form-success" style="display:none;">
+          <i class="fas fa-check-circle"></i> Thank you! We'll be in touch within 24 hours.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">LUXE FORMA</div>
+          <p>Crafting luxury furniture for those who believe that beauty belongs in everyday life.</p>
+          <div class="social-links">
+            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-pinterest"></i></a>
+            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Collections</h4>
+          <ul>
+            <li><a href="#">Sofas &amp; Lounges</a></li>
+            <li><a href="#">Dining Sets</a></li>
+            <li><a href="#">Bedrooms</a></li>
+            <li><a href="#">Accent Chairs</a></li>
+            <li><a href="#">Tables</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Trade Program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="#">Shipping &amp; Delivery</a></li>
+            <li><a href="#">Returns Policy</a></li>
+            <li><a href="#">Care Guide</a></li>
+            <li><a href="#">Warranty</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 LUXE FORMA. All rights reserved.</p>
+        <div class="footer-legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
